@@ -7,8 +7,8 @@ The function that processes core subchunks which contains the big model, needs t
 
 # Steps
 
-Take a big csv file containing at least two columns ("id" and "text") clean the text column with the script tweetsClean.py
+1. Take a big csv file containing at least two columns ("id" and "text") clean the text column with the script tweetsClean.py
 
-The resulting file tw_out.csv that contains only the two above mentioned columns will be used in roberta_ray_slurm.py python script which is called by ray_roberta.slurm
+2. The resulting file tw_out.csv that contains only the two above mentioned columns will be used in roberta_ray_slurm.py python script which is called by ray_roberta.slurm
 
-On the cluster execute : sbatch ray_roberta.slurm
+3. On the cluster execute : sbatch ray_roberta.slurm
