@@ -14,4 +14,5 @@ The function that processes core subchunks which contains the big model, needs t
 3. On the cluster execute : sbatch ray_roberta.slurm
 
 4. Monitor the advancement of the jobs that have been lauched on the cluster since a given date:
+
    sacct -o jobid,jobname,reqnodes,reqcpus,reqmem,maxrss,averss,elapsed,start  -S 1204 
